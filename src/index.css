@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body{
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: "Runiga";
+  src: url("/fonts/Runiga.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.runiga {
+  font-family: "Runiga", serif;
+  font-feature-settings: "aalt" 1;
+}
